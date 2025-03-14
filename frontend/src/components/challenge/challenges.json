@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "À la recherche des QR codes volés",
+    "description": "Jacquot a dissimulé 5 QR codes nécessaires pour accéder à la suite. Ces QR codes se trouvent dans des salles dont les numéros ont pour somme 9. Récupérez-les rapidement avant que l'argent ne disparaisse davantage !"
+  },
+  {
+    "id": 2,
+    "title": "Le fichier numérique verrouillé",
+    "descriptionNonAdepte": "Rendez-vous dans la salle 200 et attendez que l'Adepte Jacquot scanne le QR code pour débloquer l'accès au fichier.",
+    "descriptionAdepte": "Rendez-vous dans la salle des Adeptes (100) et utilisez vos compétences techniques pour déverrouiller le fichier numérique.",
+    "description": "Avec l'aide de l'Adepte Jacquot, utilisez l'ordinateur et l'invite de commande pour localiser et accéder au fichier caché contenant des indices laissés par Jacquot."
+  },
+  {
+    "id": 3,
+    "title": "Mat en un coup",
+    "description": "Jacquot a défié votre logique avec une énigme d'échecs. Mater les noirs en un coup pour débloquer un indice crucial."
+  },
+  {
+    "id": 4,
+    "title": "Les coordonnées du secret",
+    "description": "Jacquot a marqué plusieurs positions GPS contenant une partie essentielle de la clé. Rendez-vous à ces endroits pour progresser."
+  },
+  {
+    "id": 5,
+    "title": "Le tableau caché",
+    "descriptionNonAdepte": "Rendez-vous dans la salle 200 et attendez que l'Adepte Tissier scanne le QR code pour vous guider.",
+    "descriptionAdepte": "Rendez-vous dans la salle des Adeptes (100) et utilisez vos compétences pour interpréter les indices laissés sur les tableaux.",
+    "description": "En collaboration avec votre Adepte Tissier, identifiez le bon tableau qui contient un morceau de la clé secrète."
+  },
+  {
+    "id": 6,
+    "title": "Décrypter la phrase cachée",
+    "description": "Un message crypté a été laissé par Jacquot. Décodez-le pour révéler une partie importante de la clé."
+  },
+  {
+    "id": 7,
+    "title": "Analyse de l'audio mystérieux",
+    "descriptionNonAdepte": "Rendez-vous dans la salle 200 et attendez que l'Adepte Guéraud-Pinet scanne le QR code pour démarrer l'épreuve.",
+    "descriptionAdepte": "Rendez-vous dans la salle des Adeptes (100) et utilisez vos outils pour analyser l'audio.",
+    "description": "Travaillez ensemble pour déchiffrer le message caché dans l'audio laissé par Jacquot et découvrir un nouvel indice."
+  },
+  {
+    "id": 8,
+    "title": "Le quiz ultime : Sauvez les finances du BDE",
+    "description": "Jacquot a préparé un quiz sur l'univers MMI et des anecdotes du BDE. Résolvez-le correctement pour récupérer un morceau de la clé cryptée."
+  },
+  {
+    "id": 9,
+    "title": "Le mystère des noms de code",
+    "descriptionNonAdepte": "Rendez-vous dans la salle 200 et attendez que l'Adepte Guéraud-Pinet scanne le QR code pour démarrer.",
+    "descriptionAdepte": "Rendez-vous dans la salle des Adeptes (100) et utilisez vos compétences pour résoudre l'énigme.",
+    "description": "Jacquot a utilisé des noms de code pour masquer une partie de la clé. Résolvez l'énigme pour obtenir un indice essentiel."
+  },
+  {
+    "id": 10,
+    "title": "Décrypter le message secret",
+    "descriptionNonAdepte": "Rendez-vous dans la salle 200 et attendez que l'Adepte Jacquot scanne le QR code pour démarrer.",
+    "descriptionAdepte": "Rendez-vous dans la salle des Adeptes (100) et utilisez vos connaissances pour déchiffrer le message.",
+    "description": "Un message crypté crucial est votre prochain défi. Collaborez pour le résoudre et avancer vers la fin du jeu."
+  },
+  {
+    "id": 11,
+    "title": "Reconnaître les voix des professeurs",
+    "description": "Jacquot a laissé des indices dans des enregistrements audio de professeurs. Écoutez attentivement et identifiez les voix pour progresser."
+  },
+  {
+    "id": 12,
+    "title": "Le défi artistique",
+    "descriptionNonAdepte": "Rendez-vous dans la salle 200 et attendez que l'Adepte Tissier scanne le QR code.",
+    "descriptionAdepte": "Rendez-vous dans la salle des Adeptes (100) et utilisez votre créativité pour résoudre l'énigme.",
+    "description": "Avec des dessins et une bonne communication, déchiffrez ce défi artistique pour obtenir un morceau de la clé."
+  },
+  {
+    "id": 13,
+    "title": "La clé complète : le dernier QR code",
+    "description": "Félicitations ! Vous avez récupéré tous les morceaux de la clé cryptée. Rendez-vous en amphithéâtre pour scanner le dernier QR code, débloquer l'argent, et sauver définitivement le BDE. Le temps presse, chaque seconde compte !"
+  }
+]

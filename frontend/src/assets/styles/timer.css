@@ -1,0 +1,71 @@
+.test {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: "alfa-slab-one", sans-serif !important;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "alfa-slab-one";
+  src: url("../src/fonts/AlfaSlabOne-Regular.ttf") format("truetype");
+}
+
+.countdown-container {
+  text-align: center;
+  padding: 20px;
+  color: #ffffff;
+  font-family: "alfa-slab-one", sans-serif;
+}
+
+.TitleTimer {
+  font-size: 1.8rem !important;
+  margin-bottom: 50px !important;
+  line-height: 1.5 !important;
+  font-weight: 700 !important;
+}
+
+.flip-clock {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 0 auto 30px;
+}
+
+.imageTimer {
+  max-width: 70% !important;
+  margin: 30px auto 0;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 400px) {
+  .TitleTimer {
+    font-size: 1.3rem !important;
+  }
+
+  .countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .imageTimer {
+    max-width: 65% !important;
+  }
+
+  .responsive-flip-clock {
+    --fcc-digit-block-height: 40px !important;
+    --fcc-digit-block-width: 25px !important;
+    --fcc-digit-font-size: 1.1rem !important;
+    margin: 0 auto;
+  }
+}

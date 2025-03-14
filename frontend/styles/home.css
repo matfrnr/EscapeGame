@@ -1,0 +1,217 @@
+/* Styles globaux */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    justify-content: center;
+}
+
+.home-guest-container {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.home-guest-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f28549;
+    margin-bottom: 20px;
+}
+
+.home-guest-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* ou une hauteur spécifique si nécessaire */
+    margin-bottom: 10%;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Form styles */
+.home-guest-form,
+.modal-form {
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.home-guest-form{
+    margin-top: 10%;
+}
+.form-group,
+.modal-form-group {
+    text-align: left;
+}
+
+.form-label,
+.modal-form-label {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-input,
+.modal-form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+}
+
+.form-input::placeholder,
+.modal-form-input::placeholder {
+    color: #ddd;
+}
+
+/* Container principal */
+.dashboard-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f28549;
+    margin-bottom: 30px;
+}
+
+/* Section Profil */
+.profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+}
+
+.username {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Actions du lobby */
+.lobby-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.join-lobby {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.code-input {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.code-input::placeholder {
+    color: #ddd;
+}
+
+/* Modal Styles */
+.react-responsive-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Fond noir semi-transparent */
+    overflow-x: hidden; /* Supprime la barre de défilement horizontale */
+}
+
+.react-responsive-modal,
+.modal-custom {
+    background-color: #111; /* Fond noir de la modal */
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px; /* Largeur maximale de la modal */
+    margin: 0 auto;
+    overflow: hidden; /* Supprime la barre de défilement horizontale */
+}
+
+.modal-title,
+.modal-title-custom {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f28549;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Boutons */
+.btn,
+.modal-btn,
+.modal-btn.modal-btn-secondary {
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.btn-secondary {
+    background-color: #ddd;
+    color: #333;
+    border: none;
+}
+
+.btn-secondary:hover,
+.modal-btn:hover,
+.modal-btn.modal-btn-secondary:hover {
+    background-color: #d76b3c; /* Couleur légèrement plus sombre pour l'effet hover */
+    color: black;
+}
+
+.modal-btn {
+    font-weight: 500;
+    background-color: #f28549;
+    border: 2px solid #f28549;
+    color: #fff;
+}
+
+.modal-btn.modal-btn-secondary {
+    background-color: #f28549;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Autres éléments */
+.file-name {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+    text-align: center;
+}

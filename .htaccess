@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# Proxy inversé WebSocket : gestion du protocole ws:// et wss://
+RewriteCond %{REQUEST_URI} ^/socket.io/ [NC]
+RewriteCond %{HTTP:Upgrade} =websocket [NC]
+RewriteRule ^socket.io/(.*)$ ws://localhost:3401/socket.io/$1 [P,L]
+
+# Fallback WebSocket en HTTP si WebSocket natif indisponible
+RewriteCond %{REQUEST_URI} ^/socket.io/ [NC]
+RewriteRule ^socket.io/(.*)$ http://localhost:3401/socket.io/$1 [P,L]
+
+# Redirection des requêtes API vers le port 3402
+RewriteCond %{REQUEST_URI} ^/api/
+RewriteRule ^api/(.*)$ http://localhost:3402/$1 [P,L]
+
+# Gestion des requêtes vers le frontend React
+RewriteCond %{REQUEST_URI} !^(/api/|/socket.io/)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L]
