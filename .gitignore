@@ -31,3 +31,4 @@ backend/public/
 
 .env
 backend/.env
+backend/seeds/*.js
