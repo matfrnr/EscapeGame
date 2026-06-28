@@ -28,3 +28,6 @@ build/
 
 # Ignorer le dossier public de backend
 backend/public/
+
+.env
+backend/.env
